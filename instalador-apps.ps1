@@ -2,12 +2,13 @@
 Add-Type -AssemblyName PresentationFramework
 
 $Apps = @(
-    [PSCustomObject]@{ Nome = "Google Chrome";        Id = "Google.Chrome" }
-    [PSCustomObject]@{ Nome = "7-Zip";                 Id = "7zip.7zip" }
-    [PSCustomObject]@{ Nome = "Adobe Acrobat Reader";  Id = "Adobe.Acrobat.Reader.64-bit" }
+    [PSCustomObject]@{ Nome = "Google Chrome";          Id = "Google.Chrome" }
+    [PSCustomObject]@{ Nome = "7-Zip";                  Id = "7zip.7zip" }
+    [PSCustomObject]@{ Nome = "Adobe Acrobat Reader";   Id = "Adobe.Acrobat.Reader.64-bit" }
     [PSCustomObject]@{ Nome = "Anydesk";                Id = "AnyDeskSoftwareGmbH.AnyDesk" }
     [PSCustomObject]@{ Nome = "Microsoft Office (365)"; Id = "Microsoft.Office" }
     [PSCustomObject]@{ Nome = "Adobe Acrobat Reader";   Id = "Adobe.Acrobat.Reader" }
+    [PSCustomObject]@{ Nome = "WhatsApp";               Id = "WhatsApp.WhatsApp" }
 )
 
 [xml]$Xaml = @"
