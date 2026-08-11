@@ -7,6 +7,7 @@ $Apps = @(
     [PSCustomObject]@{ Nome = "Adobe Acrobat Reader";  Id = "Adobe.Acrobat.Reader.64-bit" }
     [PSCustomObject]@{ Nome = "Anydesk";                Id = "AnyDeskSoftwareGmbH.AnyDesk" }
     [PSCustomObject]@{ Nome = "Microsoft Office (365)"; Id = "Microsoft.Office" }
+    [PSCustomObject]@{ Nome = "Adobe Acrobat Reader";   Id = "Adobe.Acrobat.Reader" }
 )
 
 [xml]$Xaml = @"
