@@ -5,15 +5,8 @@ $Apps = @(
     [PSCustomObject]@{ Nome = "Google Chrome";        Id = "Google.Chrome" }
     [PSCustomObject]@{ Nome = "7-Zip";                 Id = "7zip.7zip" }
     [PSCustomObject]@{ Nome = "Adobe Acrobat Reader";  Id = "Adobe.Acrobat.Reader.64-bit" }
-    [PSCustomObject]@{ Nome = "VLC Media Player";      Id = "VideoLAN.VLC" }
     [PSCustomObject]@{ Nome = "Anydesk";                Id = "AnyDeskSoftwareGmbH.AnyDesk" }
-    [PSCustomObject]@{ Nome = "TeamViewer";             Id = "TeamViewer.TeamViewer" }
     [PSCustomObject]@{ Nome = "Microsoft Office (365)"; Id = "Microsoft.Office" }
-    [PSCustomObject]@{ Nome = "Notepad++";              Id = "Notepad++.Notepad++" }
-    [PSCustomObject]@{ Nome = "WinRAR";                 Id = "RARLab.WinRAR" }
-    [PSCustomObject]@{ Nome = "Java Runtime (JRE 8)";   Id = "Oracle.JavaRuntimeEnvironment" }
-    [PSCustomObject]@{ Nome = "Google Drive";           Id = "Google.GoogleDrive" }
-    [PSCustomObject]@{ Nome = "Zoom";                   Id = "Zoom.Zoom" }
 )
 
 [xml]$Xaml = @"
