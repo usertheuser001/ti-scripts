@@ -1,4 +1,4 @@
-
+#ADICIONE OS APP NA LISTA ABAIXO COM O Id DO MESMO.
 Add-Type -AssemblyName PresentationFramework
 
 $Apps = @(
